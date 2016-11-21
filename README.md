@@ -1,0 +1,2 @@
+# pdnsadmin-docs
+pdnsAdmin documentation
