@@ -1,0 +1,7 @@
+site_name: pdnsAdmin Docs
+site_url: http://pdnsadmin.com
+repo_url: https://github.com/pkchuyen/pdnsadmin-docs
+theme: readthedocs
+pages:
+    - Home: index.md
+    - About: about.md
