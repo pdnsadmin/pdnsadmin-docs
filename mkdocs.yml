@@ -4,4 +4,5 @@ repo_url: https://github.com/pkchuyen/pdnsadmin-docs
 theme: readthedocs
 pages:
     - Home: index.md
+    - Download: download.md
     - About: about.md
