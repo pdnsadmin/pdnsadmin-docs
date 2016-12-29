@@ -6,9 +6,10 @@
 
 pdnsAdmin is a friendly web-based DNS administration tool for [PowerDNS](https://www.powerdns.com/) server. The interface has full support for most of the features of PowerDNS. It has full support for IPv6. See feature list for all features.
 
-This version of Poweradmin is an adaptation of the Poweradmin that was written by Jorn Ekkelenkamp and Roeland Nieuwenhuis long time ago. The current version has been extended with numerous features that were missing in the original code and has considerable performance improvements. We also removed the "sequence updater" and replaced the database abstract layer code. We are now working hard in getting the basic setup right. As soon as all functionality is fixed, we will start working on the interface itself, improving it's usability and make it more attractive.
+We are now working hard in getting the basic setup right and provide the easiest way to get pdnsAdmin up and running quickly. Improving it's usability and make it more attractive and rich of features.
 
-pdnsAdmin is released under a GPL license. Most recent version is 1.0.1
+pdnsAdmin is released under a [MIT license](http://opensource.org/licenses/MIT).
+Most recent version is 1.0.1
 
 ### News
 
