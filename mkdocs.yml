@@ -5,4 +5,5 @@ theme: readthedocs
 pages:
     - Home: index.md
     - Download: download.md
+    - Setup: setup.md
     - Contrubutions: contributions.md
