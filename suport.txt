@@ -1,1 +1,1 @@
-support email: support@pdnsadmin.com
+- support email: support@pdnsadmin.com
