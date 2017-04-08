@@ -6,4 +6,5 @@ pages:
     - Home: index.md
     - Download: download.md
     - Setup: setup.md
+    - Install from source: user-guide/installation.md
     - Contrubutions: contributions.md

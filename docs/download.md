@@ -20,7 +20,7 @@ GitHub creates automatically a tarball of the latest revision of the regular pdn
 #### 2. Docker images
 For your convinience, pdnsAdmin is also supported docker image which you you bring it up on you system within few minutes.
 
-    docker pull pdnsadmin
+    docker pull pdnsadmin/pdnsadmin:latest
 
 Pull latest docker images and get it running
 
