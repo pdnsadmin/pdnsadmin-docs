@@ -6,3 +6,4 @@ pages:
     - Home: index.md
     - Download: download.md
     - Contrubutions: contributions.md
+    - Installation: user-guide/installation.md
