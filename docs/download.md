@@ -20,15 +20,11 @@ GitHub creates automatically a tarball of the latest revision of the regular pdn
 #### 2. Docker images
 For your convinience, pdnsAdmin is also supported docker image which you you bring it up on you system within few minutes.
 
-    docker pull pdnsadmin
+    docker pull pdnsadmin/pdnsadmin:latest
 
 Pull latest docker images and get it running
 
-###### Exposing the port for docker container
-
-    $ docker run --name pdnsadmin -d -p 8080:80 pdnsadmin
-
-Then you can hit http://localhost:8080 or http://host-ip:8080 in your browser.
+Please read [Setup](http://doc.pdnsadmin.com/setup) to have the detail how to setup pdnsAdmin with Docker.
 
 #### Supported Docker versions
 This image is officially supported on Docker version 1.12.5.
