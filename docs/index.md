@@ -17,7 +17,7 @@ Most recent version is 1.0.1
 
 ### Further reading
 
-- How to install pdnsAdmin
+- How to install pdnsAdmin(./user-guide/installation.md)
 - Setup PowerDNS API to make it working with pdnsAdmin
 - Report a bug to the ticketing system
 - Help is highly appreciated
