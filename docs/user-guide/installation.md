@@ -25,6 +25,11 @@ In our example we will install PdnsAdmin for domain example.com. Once the packag
 			++ PDO PHP Extension
 			++ Mbstring PHP Extension
 			++ Tokenizer PHP Extension
+![Screenshot](images/step1.png)
+Note: System requirement for Php and Mysql version depends on which laravel version we are using for pdnsadmin
+
+		PdnsAdmin v1.0.1. uses <a href="https://laravel.com/docs/5.2">laravel 5.2 </a>
+
 
 - Database configuration:
 
@@ -32,6 +37,7 @@ In our example we will install PdnsAdmin for domain example.com. Once the packag
 		+ Database server Username
 		+ Database server Password
 		+ Database Name
+![Screenshot](images/step2.png)
 
 - [Powerdns](https://www.powerdns.com) configuration:
 	+ Web configuration:
@@ -39,6 +45,7 @@ In our example we will install PdnsAdmin for domain example.com. Once the packag
 			++ Admin Name
 			++ Email address
 			++ Password
+![Screenshot](images/step3-1.png)
 
 	+ Powerdns configuration:
 
@@ -51,8 +58,9 @@ In our example we will install PdnsAdmin for domain example.com. Once the packag
 			++ The value of the second NS-record
 			++ Hostmaster record
 
+![Screenshot](images/step3-2.png)
 
-Create on the button "Create". and wait a few seconds..
+Click on the button "Create" and wait a few seconds..
 
 ![Screenshot](images/welldone.png)
 
