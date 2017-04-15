@@ -37,7 +37,7 @@ Then you can hit `http://localhost:8080` or `http://host-ip:8080` in your browse
 *Note*: This step, You would have pdnsAdmin ready and running and require to have MySQL server and PowerDNS ready to connect.
 pdnsAdmin will need some more basic steps to set it up like connect to Database and PowerDNS API.
 
-# Docker Composer
+# Quick start: Docker Composer
 
 With docker composer supports, you can get pdnsAdmin up and running by single command.
 
