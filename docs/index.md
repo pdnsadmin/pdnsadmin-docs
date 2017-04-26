@@ -37,12 +37,12 @@ The latest version of pdnsAdmin is released and deployed on this demo side. Try 
 Demo Login credentials:
 
     Administrator roles
-    User: admin 
-    Password: xxxxxx
+    User: demo@pdnsadmin.com
+    Password: admindemo
 
     Normal User roles:
-    User: user 
-    Password: xxxxxxx
+    User: user@pdnsadmin.com
+    Password: userdemo
 
 
 ### Contributing
