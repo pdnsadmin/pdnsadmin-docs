@@ -14,5 +14,5 @@ If you decide to start on an issue, leave a comment so that other people know th
 you're working on it. If you want to help out, but not alone, use the issue
 comment thread to coordinate.
 
-I would like to say thanks a lot to all contributors who love pdnsadmin and decide to improve it better!
-Please feel free to reach us via *admin [@] pdnsadmin.com* if you have any inquiries
+I would like to send a big thanks to all contributors who love pdnsadmin and help to get it better!
+Please feel free to reach us via *admin [@] pdnsadmin.com* if you have any inquiries!

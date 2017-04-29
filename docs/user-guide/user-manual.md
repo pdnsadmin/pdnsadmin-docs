@@ -22,7 +22,7 @@ Create a New User and assign the roles
 
 ![Screenshot](images/create-a-new-user.png)
 
-a Login account & assign permissions.
+a) Login account & assign permissions.
 
 	- Select group
 	- Enter full name
@@ -30,18 +30,19 @@ a Login account & assign permissions.
 
 The email is your email. For example, if your email is “john@pdnsadmin.com” you can also log in as john@pdnsadmin.com”. This email address must be different from the one that is associated with your original Admin account
 
-b Complete the following information:
+b) Complete the following information:
 
 	- Job title
 	- Phone number
 	- Location
 
-c Assign a Password to the account.
+c) Assign a Password to the account.
 
 The password should be seven or more characters long, and include both letters and numbers.
-d Root admin: if user is root admin, the account will have full permission
 
-e Complete the following information:
+d) Root admin: if user is root admin, the account will have full permission
+
+e) Complete the following information:
 
 	- Signature
 	- About me
@@ -49,7 +50,7 @@ e Complete the following information:
 
 Create group(custom roles)
 
-- On the left menu: Users --> Groups --> Enter group name --> click on button "Add"
+- On the left menu: *Users --> Groups --> Enter group name --> click on button "Add"*
 
 	![Screenshot](images/create-a-new-group.png)
 
