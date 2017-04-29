@@ -1,24 +1,21 @@
 # User manual
 
-Pdnsadmin user and user group to create different levels of access to the Admin, when your system is first step setup you receive a set of login credentails for the Administor role(root) with the full permissions. However you can restrict a level of permission on a "need to know" basis for other people who work on your site. For example developer can be given access only list of domains page but not to area with setting page. Topics in this section include:
+Pdnsadmin user and user group to create different levels of access to the Admin, when your system is first step setup you receive a set of login credentails for the Administrator role(root) with the full permissions. However you can restrict a level of permission on a "need to know" basis for other people who work on your site. For example developer can be given access only list of domains page but not to area with setting page. Topics in this section include:
 
 - Creating new users
-- Creating custom role
-- Content permissions
+- Creating group(custom role)
+
 
 Creating new Users
 
-When your system is first installed, your login credencials have with full administative access. As the best practice, one of the first things you should do is to create another user account with full Administator permissions. That way your can use one account for your everyday. Administative activities and reserve other account as a "supper admin" in case you forget regular redencials or they somehow othewise unusable
+When your system is first installed, your login credencials have with full administrative access. As the best practice, one of the first things you should do is to create another user account with full Administator permissions. That way your can use one account for your everyday. Administative activities and reserve other account as a "supper admin" in case you forget regular redencials or they somehow othewise unusable
 
 If there are others on your team, or service providers who need access, you can create a separate
 user account for each, and assign a restricted role. They cannot change any global settings or
 data.
 
-			Process Overview:
-			Step 1: Create a New User and assign the roles
-			Step 2: Create group(custom roles)
 
-Step 1: create a new user
+Create a New User and assign the roles
 
 	1 On the left menu: Users --> click on the link  "Add"
 	2 In the add new user section, do the following:
@@ -50,7 +47,7 @@ e Complete the following information:
 	- About me
 	- Signature
 
-Step 3 Create group(custom roles)
+Create group(custom roles)
 
 - On the left menu: Users --> Groups --> Enter group name --> click on button "Add"
 
