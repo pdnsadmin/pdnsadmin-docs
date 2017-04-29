@@ -7,5 +7,6 @@ pages:
     - Download: download.md
     - Setup with Docker: setup_with_docker.md
     - Install from source: user-guide/installation.md
+    - User manual: user-guide/user-manual.md
     - Contrubutions: contributions.md
    
