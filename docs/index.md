@@ -17,12 +17,12 @@ Most recent version is 1.0.1
 
 ### Further reading
 
-- How to install pdnsAdmin(./user-guide/installation.md)
-- Setup PowerDNS API to make it working with pdnsAdmin
-- Report a bug to the ticketing system
+- [How to install pdnsAdmin](http://doc.pdnsadmin.com/user-guide/installation/)
+- [Setup PowerDNS API to make it working with pdnsAdmin](https://doc.powerdns.com/md/httpapi/README/)
+- [Report a bug to the ticketing system](https://github.com/pdnsadmin/pdnsadmin/issues)
 - Help is highly appreciated
-- See a list of known bugs
-- Download and install a complete(r) poweradmin
+- [See a list of known bugs](https://github.com/pdnsadmin/pdnsadmin/issues)
+- [Download and install a complete poweradmin with Docker](http://doc.pdnsadmin.com/setup_with_docker/)
 - Have a look at the feature list
 
 
