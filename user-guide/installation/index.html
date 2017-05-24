@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Install from source - pdnsAdmin Docs</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Install from source";
+    var mkdocs_page_input_path = "user-guide/installation.md";
+    var mkdocs_page_url = "/user-guide/installation/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> pdnsAdmin Docs</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../download/">Download</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../setup_with_docker/">Setup with Docker</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Install from source</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#installation">Installation</a></li>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../user-manual/">User manual</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../contributions/">Contrubutions</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">pdnsAdmin Docs</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Install from source</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/pdnsadmin/pdnsadmin-docs/edit/master/docs/user-guide/installation.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="installation">Installation</h1>
+<p>This section describes how to install PdnsAdmin.</p>
+<p>Step 1: The first thing you need to do to install PdnsAdmin manually is to download the latest installation package at </p>
+<pre><code>https://github.com/pdnsadmin/pdnsadmin
+</code></pre>
+<p>Step 2: Next, you must upload the installation package on your hosting account through your cPanel -&gt; File Manager or using an FTP client (copy the installation package to your "DocumentRoot" in your computer if you want to install PdnsAdmin on your local.)</p>
+<p>Step 3: Create a MySQL database and assign a user to it. Remember the database details, since you will need them during the script installation. </p>
+<p>Step 4: Go through the PdnsAdmin installation process
+In our example we will install PdnsAdmin for domain example.com. Once the package is uploaded  and you have a MySQL database, navigate to <code>http://example.com/setup</code></p>
+<ul>
+<li>
+<p>System Requirements:</p>
+<ul>
+<li>Folder "uploads" must be writeable</li>
+<li>Database type: Mysql(&gt;=Version 5.x)</li>
+<li>
+<p>PHP:</p>
+<pre><code>++ Version &gt;= 5.5.9
+++ OpenSSL PHP Extension
+++ PDO PHP Extension
+++ Mbstring PHP Extension
+++ Tokenizer PHP Extension
+</code></pre>
+<p><img alt="Screenshot" src="../images/step1.png" />
+Note: System requirement for Php and Mysql version depends on which laravel version we are using for pdnsadmin</p>
+<p>PdnsAdmin v1.0.1. uses <a href="https://laravel.com/docs/5.2">laravel 5.2 </a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Database configuration:</p>
+<pre><code>+ Database server Host
++ Database server Username
++ Database server Password
++ Database Name
+</code></pre>
+<p><img alt="Screenshot" src="../images/step2.png" /></p>
+</li>
+<li>
+<p><a href="https://www.powerdns.com">Powerdns</a> configuration:</p>
+<ul>
+<li>
+<p>Web configuration:</p>
+<pre><code>++ Admin Name
+++ Email address
+++ Password
+</code></pre>
+<p><img alt="Screenshot" src="../images/step3-1.png" /></p>
+</li>
+<li>
+<p>Powerdns configuration:</p>
+<pre><code>++ Host master
+++ Port
+++ Zone path
+++ Protocol
+++ Api key
+++ The value of the first NS-record
+++ The value of the second NS-record
+++ Hostmaster record
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<p><img alt="Screenshot" src="../images/step3-2.png" /></p>
+<p>Click on the button "Create" and wait a few seconds..</p>
+<p><img alt="Screenshot" src="../images/welldone.png" /></p>
+<p>Your PdnsAdmin installation was successfully completed. Now you can navigate to its Backend</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../user-manual/" class="btn btn-neutral float-right" title="User manual">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../../setup_with_docker/" class="btn btn-neutral" title="Setup with Docker"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/pdnsadmin/pdnsadmin-docs" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../../setup_with_docker/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../user-manual/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../../js/theme.js"></script>
+
+</body>
+</html>

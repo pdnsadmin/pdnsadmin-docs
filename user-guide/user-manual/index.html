@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>User manual - pdnsAdmin Docs</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "User manual";
+    var mkdocs_page_input_path = "user-guide/user-manual.md";
+    var mkdocs_page_url = "/user-guide/user-manual/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> pdnsAdmin Docs</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../download/">Download</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../setup_with_docker/">Setup with Docker</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../installation/">Install from source</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">User manual</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#user-manual">User manual</a></li>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../contributions/">Contrubutions</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">pdnsAdmin Docs</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>User manual</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/pdnsadmin/pdnsadmin-docs/edit/master/docs/user-guide/user-manual.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="user-manual">User manual</h1>
+<p>Pdnsadmin user and user group to create different levels of access to the Admin, when your system is first step setup you receive a set of login credentails for the Administrator role(root) with the full permissions. However you can restrict a level of permission on a "need to know" basis for other people who work on your site. For example developer can be given access only list of domains page but not to area with setting page. Topics in this section include:</p>
+<ul>
+<li>Creating new users</li>
+<li>Creating group(custom role)</li>
+</ul>
+<p>Creating new Users</p>
+<p>When your system is first installed, your login credencials have with full administrative access. As the best practice, one of the first things you should do is to create another user account with full Administator permissions. That way your can use one account for your everyday. Administative activities and reserve other account as a "supper admin" in case you forget regular redencials or they somehow othewise unusable</p>
+<p>If there are others on your team, or service providers who need access, you can create a separate
+user account for each, and assign a restricted role. They cannot change any global settings or
+data.</p>
+<p>Create a New User and assign the roles</p>
+<pre><code>1 On the left menu: Users --&gt; click on the link  "Add"
+2 In the add new user section, do the following:
+</code></pre>
+<p><img alt="Screenshot" src="../images/create-a-new-user.png" /></p>
+<p>a) Login account &amp; assign permissions.</p>
+<pre><code>- Select group
+- Enter full name
+- Enter email for account
+</code></pre>
+<p>The email is your email. For example, if your email is “john@pdnsadmin.com” you can also log in as john@pdnsadmin.com”. This email address must be different from the one that is associated with your original Admin account</p>
+<p>b) Complete the following information:</p>
+<pre><code>- Job title
+- Phone number
+- Location
+</code></pre>
+<p>c) Assign a Password to the account.</p>
+<p>The password should be seven or more characters long, and include both letters and numbers.</p>
+<p>d) Root admin: if user is root admin, the account will have full permission</p>
+<p>e) Complete the following information:</p>
+<pre><code>- Signature
+- About me
+- Signature
+</code></pre>
+<p>Create group(custom roles)</p>
+<ul>
+<li>
+<p>On the left menu: <em>Users --&gt; Groups --&gt; Enter group name --&gt; click on button "Add"</em></p>
+<p><img alt="Screenshot" src="../images/create-a-new-group.png" /></p>
+</li>
+<li>
+<p>Click on group you have just created and Set is allowed to "checked" on checkboxes</p>
+</li>
+<li>
+<p>When complete click on button "update"</p>
+<p><img alt="Screenshot" src="../images/update-group.png" /></p>
+</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../contributions/" class="btn btn-neutral float-right" title="Contrubutions">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../installation/" class="btn btn-neutral" title="Install from source"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/pdnsadmin/pdnsadmin-docs" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../installation/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../../contributions/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../../js/theme.js"></script>
+
+</body>
+</html>

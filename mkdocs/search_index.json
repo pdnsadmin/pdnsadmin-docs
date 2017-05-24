@@ -1,0 +1,124 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to \npdnsAdmin\n!\n\n\nA friendly web interface for PowerDNS with MySQL support as backend database.\n\n\nProject introduction\n\n\npdnsAdmin is a friendly web-based DNS administration tool for \nPowerDNS\n server. The interface has full support for most of the features of PowerDNS. It has full support for IPv6. See feature list for all features.\n\n\nWe are now working hard in getting the basic setup right and provide the easiest way to get pdnsAdmin up and running quickly. Improving it's usability and make it more attractive and rich of features.\n\n\npdnsAdmin is released under a \nMIT license\n.\nMost recent version is 1.0.1\n\n\nNews\n\n\npdnsAdmin 1.0.1 released (Jan 2nd, 2017)\n\n\n\nFurther reading\n\n\n\n\nHow to install pdnsAdmin\n\n\nSetup PowerDNS API to make it working with pdnsAdmin\n\n\nReport a bug to the ticketing system\n\n\nHelp is highly appreciated\n\n\nSee a list of known bugs\n\n\nDownload and install a complete poweradmin with Docker\n\n\nHave a look at the feature list\n\n\n\n\nPlease feel free to submit feature requests on Github then we will take note and implement it in next release version.\nPlease consider to contribute this project to make it better and better.\n\n\nDemo\n\n\nThe latest version of pdnsAdmin is released and deployed on this demo side. Try it, use the demo\n\nhttp://demo.pdnsadmin.com\n\n\nDemo Login credentials:\n\n\nAdministrator roles\nUser: demo@pdnsadmin.com\nPassword: admindemo\n\nNormal User roles:\nUser: user@pdnsadmin.com\nPassword: userdemo\n\n\n\nContributing\n\n\nYou are invited to contribute new features, fixes, or updates, large or small; we are always thrilled to receive pull requests, and do our best to process them as fast as we can.\n\n\nBefore you start to code, we recommend discussing your plans through a GitHub issue, especially for more ambitious contributions. This gives other contributors a chance to point you in the right direction, give you feedback on your design, and help you find out if someone else is working on the same thing.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-pdnsadmin", 
+            "text": "", 
+            "title": "Welcome to pdnsAdmin!"
+        }, 
+        {
+            "location": "/#a-friendly-web-interface-for-powerdns-with-mysql-support-as-backend-database", 
+            "text": "", 
+            "title": "A friendly web interface for PowerDNS with MySQL support as backend database."
+        }, 
+        {
+            "location": "/#project-introduction", 
+            "text": "pdnsAdmin is a friendly web-based DNS administration tool for  PowerDNS  server. The interface has full support for most of the features of PowerDNS. It has full support for IPv6. See feature list for all features.  We are now working hard in getting the basic setup right and provide the easiest way to get pdnsAdmin up and running quickly. Improving it's usability and make it more attractive and rich of features.  pdnsAdmin is released under a  MIT license .\nMost recent version is 1.0.1", 
+            "title": "Project introduction"
+        }, 
+        {
+            "location": "/#news", 
+            "text": "pdnsAdmin 1.0.1 released (Jan 2nd, 2017)", 
+            "title": "News"
+        }, 
+        {
+            "location": "/#further-reading", 
+            "text": "How to install pdnsAdmin  Setup PowerDNS API to make it working with pdnsAdmin  Report a bug to the ticketing system  Help is highly appreciated  See a list of known bugs  Download and install a complete poweradmin with Docker  Have a look at the feature list   Please feel free to submit feature requests on Github then we will take note and implement it in next release version.\nPlease consider to contribute this project to make it better and better.", 
+            "title": "Further reading"
+        }, 
+        {
+            "location": "/#demo", 
+            "text": "The latest version of pdnsAdmin is released and deployed on this demo side. Try it, use the demo http://demo.pdnsadmin.com  Demo Login credentials:  Administrator roles\nUser: demo@pdnsadmin.com\nPassword: admindemo\n\nNormal User roles:\nUser: user@pdnsadmin.com\nPassword: userdemo", 
+            "title": "Demo"
+        }, 
+        {
+            "location": "/#contributing", 
+            "text": "You are invited to contribute new features, fixes, or updates, large or small; we are always thrilled to receive pull requests, and do our best to process them as fast as we can.  Before you start to code, we recommend discussing your plans through a GitHub issue, especially for more ambitious contributions. This gives other contributors a chance to point you in the right direction, give you feedback on your design, and help you find out if someone else is working on the same thing.", 
+            "title": "Contributing"
+        }, 
+        {
+            "location": "/download/", 
+            "text": "Getting pdnsAdmin\n\n\nNormal release\n\n\nThe most recent version is pdnsAdmin 1.0.1, which was released on Jan 2rd, 2017. \n\n\nThere are \ntwo ways\n getting pdnsAdmin up and running on your own system:\n\n\n1. Get Full Source code\n\n\nIt can be got the latest full source code at:\n\n\ngit clone git://github.com/pdnsadmin/pdnsadmin.git\nor \ngit clone https://github.com/pdnsadmin/pdnsadmin.git\n\n\n\nGitHub creates automatically a tarball of the latest revision of the regular pdnsAdmin code and it can been downloaded from:\n\n\nhttps://github.com/pdnsadmin/pdnsadmin/zipball/master\n\n\n\n2. Docker images\n\n\nFor your convinience, pdnsAdmin is also supported docker image which you you bring it up on you system within few minutes.\n\n\ndocker pull pdnsadmin/pdnsadmin:latest\n\n\n\nPull latest docker images and get it running\n\n\nPlease read \nSetup\n to have the detail how to setup pdnsAdmin with Docker.\n\n\nSupported Docker versions\n\n\nThis image is officially supported on Docker version 1.12.5.\n\n\nSupport for older versions (down to 1.6) is provided on a best-effort basis.\n\n\nPlease see \nthe Docker installation documentation\n for details on how to upgrade your Docker daemon.", 
+            "title": "Download"
+        }, 
+        {
+            "location": "/download/#getting-pdnsadmin", 
+            "text": "", 
+            "title": "Getting pdnsAdmin"
+        }, 
+        {
+            "location": "/download/#normal-release", 
+            "text": "The most recent version is pdnsAdmin 1.0.1, which was released on Jan 2rd, 2017.   There are  two ways  getting pdnsAdmin up and running on your own system:", 
+            "title": "Normal release"
+        }, 
+        {
+            "location": "/download/#1-get-full-source-code", 
+            "text": "It can be got the latest full source code at:  git clone git://github.com/pdnsadmin/pdnsadmin.git\nor \ngit clone https://github.com/pdnsadmin/pdnsadmin.git  GitHub creates automatically a tarball of the latest revision of the regular pdnsAdmin code and it can been downloaded from:  https://github.com/pdnsadmin/pdnsadmin/zipball/master", 
+            "title": "1. Get Full Source code"
+        }, 
+        {
+            "location": "/download/#2-docker-images", 
+            "text": "For your convinience, pdnsAdmin is also supported docker image which you you bring it up on you system within few minutes.  docker pull pdnsadmin/pdnsadmin:latest  Pull latest docker images and get it running  Please read  Setup  to have the detail how to setup pdnsAdmin with Docker.", 
+            "title": "2. Docker images"
+        }, 
+        {
+            "location": "/download/#supported-docker-versions", 
+            "text": "This image is officially supported on Docker version 1.12.5.  Support for older versions (down to 1.6) is provided on a best-effort basis.  Please see  the Docker installation documentation  for details on how to upgrade your Docker daemon.", 
+            "title": "Supported Docker versions"
+        }, 
+        {
+            "location": "/setup_with_docker/", 
+            "text": "Docker up and running\n\n\npdnsAdmin App container and MySQL container\n\n\npdnsAdmin docker image has been built with latest source code and ready for up and running.\n\n\nSetup pdnsAdmin docker\n\n\ndocker pull pdnsadmin/pdnsadmin\n\n\n\nIt will pull latest pdnsAdmin docker image which contains latest pdnsAdmin source code.\nOr you can select tag name to pull the specify pdnsAdmin version.\n\n\nExample\n: we'd like to pull specify version \nv1.0.1\n\n    docker pull \npdnadmin/pdnsadmin:v1.0.1\n\n\nHow to use docker image\n\n\nStart a pdnsAdmin server instance\nStarting a pdnsAdmin instance is simple:\n\n\n$ docker run --name=pdnsadmin-name -d pdnsadmin:tag\n\n\n\nwhere pdnsadmin-name is the name you want to assign to your container, tag is the tag specifying the pdnsAdmin version you want. See the list above for relevant tags.\n\n\nGet IP docker container pdnsAdmin running\n\n\n$ docker inspect --format '{{ .NetworkSettings.IPAddress }}' pdnsadmin-name\n\n\n\nYou can hit \n$curl http://\ndocker-container-ip\n:80\n in your command line interface.\n\n\nin case, you would like to expose the nginx port of pdnsadmin container to host, please add -p option in docker run command\n\n\n$ docker run --name=pdnsadmin-name -d -p 8080:80 pdnsadmin:tag\n\n\n\nThen you can hit \nhttp://localhost:8080\n or \nhttp://host-ip:8080\n in your browser. (if you expose \n8080\n port to host)\n\n\nNote\n: This step, You would have pdnsAdmin ready and running and require to have MySQL server and PowerDNS ready to connect.\npdnsAdmin will need some more basic steps to set it up like connect to Database and PowerDNS API.\n\n\nQuick start: Docker Composer\n\n\nWith docker composer supports, you can get pdnsAdmin up and running by single command.\n\n\nCheck out this git repo and its document\n\n\n$ git clone https://github.com/pdnsadmin/pdnsadmin-docker-compose\n\n\n\nBuild and start services\n\n\ndocker-compose build\ndocker-compose up\n\n\n\nDetail:\n \nhttps://github.com/pdnsadmin/pdnsadmin-docker-compose/blob/master/README.md", 
+            "title": "Setup with Docker"
+        }, 
+        {
+            "location": "/setup_with_docker/#docker-up-and-running", 
+            "text": "pdnsAdmin App container and MySQL container  pdnsAdmin docker image has been built with latest source code and ready for up and running.  Setup pdnsAdmin docker  docker pull pdnsadmin/pdnsadmin  It will pull latest pdnsAdmin docker image which contains latest pdnsAdmin source code.\nOr you can select tag name to pull the specify pdnsAdmin version.  Example : we'd like to pull specify version  v1.0.1 \n    docker pull  pdnadmin/pdnsadmin:v1.0.1", 
+            "title": "Docker up and running"
+        }, 
+        {
+            "location": "/setup_with_docker/#how-to-use-docker-image", 
+            "text": "Start a pdnsAdmin server instance\nStarting a pdnsAdmin instance is simple:  $ docker run --name=pdnsadmin-name -d pdnsadmin:tag  where pdnsadmin-name is the name you want to assign to your container, tag is the tag specifying the pdnsAdmin version you want. See the list above for relevant tags.  Get IP docker container pdnsAdmin running  $ docker inspect --format '{{ .NetworkSettings.IPAddress }}' pdnsadmin-name  You can hit  $curl http:// docker-container-ip :80  in your command line interface.  in case, you would like to expose the nginx port of pdnsadmin container to host, please add -p option in docker run command  $ docker run --name=pdnsadmin-name -d -p 8080:80 pdnsadmin:tag  Then you can hit  http://localhost:8080  or  http://host-ip:8080  in your browser. (if you expose  8080  port to host)  Note : This step, You would have pdnsAdmin ready and running and require to have MySQL server and PowerDNS ready to connect.\npdnsAdmin will need some more basic steps to set it up like connect to Database and PowerDNS API.", 
+            "title": "How to use docker image"
+        }, 
+        {
+            "location": "/setup_with_docker/#quick-start-docker-composer", 
+            "text": "With docker composer supports, you can get pdnsAdmin up and running by single command.  Check out this git repo and its document  $ git clone https://github.com/pdnsadmin/pdnsadmin-docker-compose  Build and start services  docker-compose build\ndocker-compose up  Detail:   https://github.com/pdnsadmin/pdnsadmin-docker-compose/blob/master/README.md", 
+            "title": "Quick start: Docker Composer"
+        }, 
+        {
+            "location": "/user-guide/installation/", 
+            "text": "Installation\n\n\nThis section describes how to install PdnsAdmin.\n\n\nStep 1: The first thing you need to do to install PdnsAdmin manually is to download the latest installation package at \n\n\nhttps://github.com/pdnsadmin/pdnsadmin\n\n\n\nStep 2: Next, you must upload the installation package on your hosting account through your cPanel -\n File Manager or using an FTP client (copy the installation package to your \"DocumentRoot\" in your computer if you want to install PdnsAdmin on your local.)\n\n\nStep 3: Create a MySQL database and assign a user to it. Remember the database details, since you will need them during the script installation. \n\n\nStep 4: Go through the PdnsAdmin installation process\nIn our example we will install PdnsAdmin for domain example.com. Once the package is uploaded  and you have a MySQL database, navigate to \nhttp://example.com/setup\n\n\n\n\n\n\nSystem Requirements:\n\n\n\n\nFolder \"uploads\" must be writeable\n\n\nDatabase type: Mysql(\n=Version 5.x)\n\n\n\n\nPHP:\n\n\n++ Version \n= 5.5.9\n++ OpenSSL PHP Extension\n++ PDO PHP Extension\n++ Mbstring PHP Extension\n++ Tokenizer PHP Extension\n\n\n\n\nNote: System requirement for Php and Mysql version depends on which laravel version we are using for pdnsadmin\n\n\nPdnsAdmin v1.0.1. uses \nlaravel 5.2 \n\n\n\n\n\n\n\n\n\n\nDatabase configuration:\n\n\n+ Database server Host\n+ Database server Username\n+ Database server Password\n+ Database Name\n\n\n\n\n\n\n\n\n\nPowerdns\n configuration:\n\n\n\n\n\n\nWeb configuration:\n\n\n++ Admin Name\n++ Email address\n++ Password\n\n\n\n\n\n\n\n\n\nPowerdns configuration:\n\n\n++ Host master\n++ Port\n++ Zone path\n++ Protocol\n++ Api key\n++ The value of the first NS-record\n++ The value of the second NS-record\n++ Hostmaster record\n\n\n\n\n\n\n\n\n\n\n\n\n\nClick on the button \"Create\" and wait a few seconds..\n\n\n\n\nYour PdnsAdmin installation was successfully completed. Now you can navigate to its Backend", 
+            "title": "Install from source"
+        }, 
+        {
+            "location": "/user-guide/installation/#installation", 
+            "text": "This section describes how to install PdnsAdmin.  Step 1: The first thing you need to do to install PdnsAdmin manually is to download the latest installation package at   https://github.com/pdnsadmin/pdnsadmin  Step 2: Next, you must upload the installation package on your hosting account through your cPanel -  File Manager or using an FTP client (copy the installation package to your \"DocumentRoot\" in your computer if you want to install PdnsAdmin on your local.)  Step 3: Create a MySQL database and assign a user to it. Remember the database details, since you will need them during the script installation.   Step 4: Go through the PdnsAdmin installation process\nIn our example we will install PdnsAdmin for domain example.com. Once the package is uploaded  and you have a MySQL database, navigate to  http://example.com/setup    System Requirements:   Folder \"uploads\" must be writeable  Database type: Mysql( =Version 5.x)   PHP:  ++ Version  = 5.5.9\n++ OpenSSL PHP Extension\n++ PDO PHP Extension\n++ Mbstring PHP Extension\n++ Tokenizer PHP Extension  \nNote: System requirement for Php and Mysql version depends on which laravel version we are using for pdnsadmin  PdnsAdmin v1.0.1. uses  laravel 5.2       Database configuration:  + Database server Host\n+ Database server Username\n+ Database server Password\n+ Database Name     Powerdns  configuration:    Web configuration:  ++ Admin Name\n++ Email address\n++ Password     Powerdns configuration:  ++ Host master\n++ Port\n++ Zone path\n++ Protocol\n++ Api key\n++ The value of the first NS-record\n++ The value of the second NS-record\n++ Hostmaster record       Click on the button \"Create\" and wait a few seconds..   Your PdnsAdmin installation was successfully completed. Now you can navigate to its Backend", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/user-guide/user-manual/", 
+            "text": "User manual\n\n\nPdnsadmin user and user group to create different levels of access to the Admin, when your system is first step setup you receive a set of login credentails for the Administrator role(root) with the full permissions. However you can restrict a level of permission on a \"need to know\" basis for other people who work on your site. For example developer can be given access only list of domains page but not to area with setting page. Topics in this section include:\n\n\n\n\nCreating new users\n\n\nCreating group(custom role)\n\n\n\n\nCreating new Users\n\n\nWhen your system is first installed, your login credencials have with full administrative access. As the best practice, one of the first things you should do is to create another user account with full Administator permissions. That way your can use one account for your everyday. Administative activities and reserve other account as a \"supper admin\" in case you forget regular redencials or they somehow othewise unusable\n\n\nIf there are others on your team, or service providers who need access, you can create a separate\nuser account for each, and assign a restricted role. They cannot change any global settings or\ndata.\n\n\nCreate a New User and assign the roles\n\n\n1 On the left menu: Users --\n click on the link  \"Add\"\n2 In the add new user section, do the following:\n\n\n\n\n\na) Login account \n assign permissions.\n\n\n- Select group\n- Enter full name\n- Enter email for account\n\n\n\nThe email is your email. For example, if your email is \u201cjohn@pdnsadmin.com\u201d you can also log in as john@pdnsadmin.com\u201d. This email address must be different from the one that is associated with your original Admin account\n\n\nb) Complete the following information:\n\n\n- Job title\n- Phone number\n- Location\n\n\n\nc) Assign a Password to the account.\n\n\nThe password should be seven or more characters long, and include both letters and numbers.\n\n\nd) Root admin: if user is root admin, the account will have full permission\n\n\ne) Complete the following information:\n\n\n- Signature\n- About me\n- Signature\n\n\n\nCreate group(custom roles)\n\n\n\n\n\n\nOn the left menu: \nUsers --\n Groups --\n Enter group name --\n click on button \"Add\"\n\n\n\n\n\n\n\n\nClick on group you have just created and Set is allowed to \"checked\" on checkboxes\n\n\n\n\n\n\nWhen complete click on button \"update\"", 
+            "title": "User manual"
+        }, 
+        {
+            "location": "/user-guide/user-manual/#user-manual", 
+            "text": "Pdnsadmin user and user group to create different levels of access to the Admin, when your system is first step setup you receive a set of login credentails for the Administrator role(root) with the full permissions. However you can restrict a level of permission on a \"need to know\" basis for other people who work on your site. For example developer can be given access only list of domains page but not to area with setting page. Topics in this section include:   Creating new users  Creating group(custom role)   Creating new Users  When your system is first installed, your login credencials have with full administrative access. As the best practice, one of the first things you should do is to create another user account with full Administator permissions. That way your can use one account for your everyday. Administative activities and reserve other account as a \"supper admin\" in case you forget regular redencials or they somehow othewise unusable  If there are others on your team, or service providers who need access, you can create a separate\nuser account for each, and assign a restricted role. They cannot change any global settings or\ndata.  Create a New User and assign the roles  1 On the left menu: Users --  click on the link  \"Add\"\n2 In the add new user section, do the following:   a) Login account   assign permissions.  - Select group\n- Enter full name\n- Enter email for account  The email is your email. For example, if your email is \u201cjohn@pdnsadmin.com\u201d you can also log in as john@pdnsadmin.com\u201d. This email address must be different from the one that is associated with your original Admin account  b) Complete the following information:  - Job title\n- Phone number\n- Location  c) Assign a Password to the account.  The password should be seven or more characters long, and include both letters and numbers.  d) Root admin: if user is root admin, the account will have full permission  e) Complete the following information:  - Signature\n- About me\n- Signature  Create group(custom roles)    On the left menu:  Users --  Groups --  Enter group name --  click on button \"Add\"     Click on group you have just created and Set is allowed to \"checked\" on checkboxes    When complete click on button \"update\"", 
+            "title": "User manual"
+        }, 
+        {
+            "location": "/contributions/", 
+            "text": "Contributing guidelines\n\n\nWe'd love to accept your patches!\n\n\nIf you have improvements to pdnsAdmin, send us your pull requests! For those\njust getting started, Github has a \nhowto\n.\n\n\nIf you want to contribute but you're not sure where to start, take a look at the\n\nissues\n.\nThese are issues that we believe are particularly well suited for outside\ncontributions, often because we probably won't get to them right now.\n\n\nIf you decide to start on an issue, leave a comment so that other people know that\nyou're working on it. If you want to help out, but not alone, use the issue\ncomment thread to coordinate.\n\n\nI would like to send a big thanks to all contributors who love pdnsadmin and help to get it better!\nPlease feel free to reach us via \nadmin [@] pdnsadmin.com\n if you have any inquiries!", 
+            "title": "Contrubutions"
+        }, 
+        {
+            "location": "/contributions/#contributing-guidelines", 
+            "text": "We'd love to accept your patches!  If you have improvements to pdnsAdmin, send us your pull requests! For those\njust getting started, Github has a  howto .  If you want to contribute but you're not sure where to start, take a look at the issues .\nThese are issues that we believe are particularly well suited for outside\ncontributions, often because we probably won't get to them right now.  If you decide to start on an issue, leave a comment so that other people know that\nyou're working on it. If you want to help out, but not alone, use the issue\ncomment thread to coordinate.  I would like to send a big thanks to all contributors who love pdnsadmin and help to get it better!\nPlease feel free to reach us via  admin [@] pdnsadmin.com  if you have any inquiries!", 
+            "title": "Contributing guidelines"
+        }
+    ]
+}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Setup with Docker - pdnsAdmin Docs</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Setup with Docker";
+    var mkdocs_page_input_path = "setup_with_docker.md";
+    var mkdocs_page_url = "/setup_with_docker/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> pdnsAdmin Docs</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../download/">Download</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Setup with Docker</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#docker-up-and-running">Docker up and running</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#how-to-use-docker-image">How to use docker image</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#quick-start-docker-composer">Quick start: Docker Composer</a></li>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../user-guide/installation/">Install from source</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../user-guide/user-manual/">User manual</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../contributions/">Contrubutions</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">pdnsAdmin Docs</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Setup with Docker</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/pdnsadmin/pdnsadmin-docs/edit/master/docs/setup_with_docker.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="docker-up-and-running">Docker up and running</h2>
+<p>pdnsAdmin App container and MySQL container</p>
+<p>pdnsAdmin docker image has been built with latest source code and ready for up and running.</p>
+<p><em>Setup pdnsAdmin docker</em></p>
+<pre><code>docker pull pdnsadmin/pdnsadmin
+</code></pre>
+<p>It will pull latest pdnsAdmin docker image which contains latest pdnsAdmin source code.
+Or you can select tag name to pull the specify pdnsAdmin version.</p>
+<p><em>Example</em>: we'd like to pull specify version <code>v1.0.1</code>
+    docker pull <code>pdnadmin/pdnsadmin:v1.0.1</code></p>
+<h4 id="how-to-use-docker-image">How to use docker image</h4>
+<p>Start a pdnsAdmin server instance
+Starting a pdnsAdmin instance is simple:</p>
+<pre><code>$ docker run --name=pdnsadmin-name -d pdnsadmin:tag
+</code></pre>
+<p>where pdnsadmin-name is the name you want to assign to your container, tag is the tag specifying the pdnsAdmin version you want. See the list above for relevant tags.</p>
+<p>Get IP docker container pdnsAdmin running</p>
+<pre><code>$ docker inspect --format '{{ .NetworkSettings.IPAddress }}' pdnsadmin-name
+</code></pre>
+<p>You can hit <code>$curl http://&lt;docker-container-ip&gt;:80</code> in your command line interface.</p>
+<p>in case, you would like to expose the nginx port of pdnsadmin container to host, please add -p option in docker run command</p>
+<pre><code>$ docker run --name=pdnsadmin-name -d -p 8080:80 pdnsadmin:tag
+</code></pre>
+<p>Then you can hit <code>http://localhost:8080</code> or <code>http://host-ip:8080</code> in your browser. (if you expose <code>8080</code> port to host)</p>
+<p><em>Note</em>: This step, You would have pdnsAdmin ready and running and require to have MySQL server and PowerDNS ready to connect.
+pdnsAdmin will need some more basic steps to set it up like connect to Database and PowerDNS API.</p>
+<h1 id="quick-start-docker-composer">Quick start: Docker Composer</h1>
+<p>With docker composer supports, you can get pdnsAdmin up and running by single command.</p>
+<p>Check out this git repo and its document</p>
+<pre><code>$ git clone https://github.com/pdnsadmin/pdnsadmin-docker-compose
+</code></pre>
+<p>Build and start services</p>
+<pre><code>docker-compose build
+docker-compose up
+</code></pre>
+<p><em>Detail:</em> <a href="https://github.com/pdnsadmin/pdnsadmin-docker-compose/blob/master/README.md">https://github.com/pdnsadmin/pdnsadmin-docker-compose/blob/master/README.md</a></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../user-guide/installation/" class="btn btn-neutral float-right" title="Install from source">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../download/" class="btn btn-neutral" title="Download"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/pdnsadmin/pdnsadmin-docs" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../download/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../user-guide/installation/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../js/theme.js"></script>
+
+</body>
+</html>
